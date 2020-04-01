@@ -30,7 +30,7 @@ function askForName() {
 function paintGreeting(text) {
 	form.classList.remove(SHOWING_CN); // showing 이라는 클래스 네임을 제거해서 안보이게 한다.
 	greeting.classList.add(SHOWING_CN); // showing 이라는 클래스 네임을 추가해서 보이게 한다.
-	greeting.innerText = `Hello ${text}`;
+	greeting.innerText = `Hello, ${text}`;
 }
 
 function saveName(text) {

@@ -33,7 +33,7 @@ function paintToDo(text) {
 
 	// toDo의 내용 처리
 	const span = document.createElement("span"); // span 엘리먼트를 만든다.
-	span.innerText = text; // span 엘리먼트의 toDo의 내용으로 채운다.
+	span.innerText = `${text} `; // span 엘리먼트의 toDo의 내용으로 채운다.
 	li.appendChild(span); // span을 li의 자식으로 붙인다.
 
 	// del 버튼 처리
